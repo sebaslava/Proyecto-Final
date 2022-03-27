@@ -1,0 +1,31 @@
+@import "variables";
+@import"header";
+@import "footer";
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'comfortaa', sans-serif;
+    background-image: url(../img/cavern.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: $altobody;
+}
+
+main{
+    .card{
+       width: 16rem;}
+       .imgtitle{
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    text-align: start;
+    text-decoration: underline;
+    margin-top: 20px;
+    color:$colortitulos;}
+    .titlequien
+{
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    font-size: 30px;
+}
+}
