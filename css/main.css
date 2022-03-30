@@ -26,7 +26,7 @@
     margin-top: 20px; }
 
 .navbar {
-  background: linear-gradient(0deg, black 15%, rgba(210, 137, 45, 0.620402) 51%, black 79%); }
+  background: linear-gradient(180deg, #3a190a 0%, #e27c3c 43%, #411b0e 79%); }
   .navbar .fa-bars {
     color: white; }
   .navbar .logo-img {
