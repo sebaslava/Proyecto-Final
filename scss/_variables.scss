@@ -14,7 +14,7 @@ $paleta: (
 
 @mixin redes($color) {
     color:$color;
-    font-size: 25px;   
+    font-size: 20px;   
 }
 
 @each $nombre, $color in $paleta {

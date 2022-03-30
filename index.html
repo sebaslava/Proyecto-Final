@@ -5,10 +5,8 @@
     <meta charset="UTF-7">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
 
@@ -25,28 +23,49 @@
 
 <body>
     <header class="header">
-        <h1 class="title">Caverna Libros</h1>
-
+        <h1 class="title animate__animated animate__rotateInDownLeft">Caverna Libros</h1>
+        
+        <!--navegador
+        <nav class="navbar navbar-lg animate__animated animate__rotateInDownLeft">
+                <ul class="navbar-nav">
+                    <li class="imagen__nav">
+                        <a class="nav-link" href="index.html">
+                            <img class="nav__logo shake-slow shake-constant" src="./img/dinosaurios.png" alt="">
+                        </a>
+                    </li>
+                    <a class="nav-link" href="index.html">
+                        <li class="nav-item">Inicio</li>
+                    </a>
+                    <a class="nav-link" href="./pages/productos.html">
+                        <li class="nav-item">Productos</li>
+                    </a>
+                    <a class="nav-link" href="./pages/novedades.html">
+                        <li class="nav-item">Novedades</li>
+                    </a>
+                    <a class="nav-link" href="./pages/quienesSomos.html">
+                        <li class="nav-item">Quienes Somos</li>
+                    </a>
+                    <a class="nav-link" href="./pages/contactos.html">
+                        <li class="nav-item">Contacto</li>
+                    </a>
+                </ul>
+        </nav>-->
     </header>
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light mt-2 animate__animated animate__backInDown">
+    <nav class="navbar navbar-expand-lg  animate__animated animate__backInDown">
         <div class="container-fluid">
             <div class="shake-slow shake-constant">
-                <a class="navbar-brand" href="./index.html"><img src="./img/dinosaurios.png"
+                <a class="navbar-brand" href="./index.html"><img class="logo-img" src="./img/dinosaurios.png"
                         alt="logo pagina dinosaurio"></a>
             </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <i class="fas fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item me-2">
-                        <a class="nav-link" href="./pages/productos.html">
-                            Productos
-                        </a>
-
+                        <a class="nav-link" href="./pages/productos.html">Productos</a>
                     </li>
                     <li class="nav-item me-2">
                         <a class="nav-link" href="./pages/novedades.html">Novedades</a>
@@ -61,22 +80,12 @@
 
             </div>
         </div>
-        <span class="border border-dark me-2">
-            <div class="input-group">
-                <input type="text" class="form-control" aria-label="Text input with segmented dropdown button">
-                <button type="button" class="btn btn-success">Buscar</button>
-            </div>
-        </span>
     </nav>
+   
 
     <main class="container">
-
         <div class="row">
-            <div class="animate__animated animate__backInLeft col-md-12 mt-2 mb-2">
-                <img class="img-thumbnail mt-3" src="./img/bancos.jpg" alt="promociones tarjetas">
-            </div>
-
-            <div class="col-md-12 col-lg-10 col-xl-10">
+            <div class="d-block mx-auto col-sg-12 col-md-12 col-lg-10 col-xl-10">
                 <h2 class="imgtitle text-center">Especial de Marzo: Stephen King</h2>
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
@@ -137,7 +146,7 @@
                 <h2 class="imgtitle text-center">ELEGÍ, PAGÁ Y RECIBÍ TU PEDIDO SIN MOVERTE DE TU CASA.</h2>
 
                 <div class="col-md-5 col-lg-4 col-xl-3">
-                    <div  data-aos="fade-down-right">
+                    <div data-aos="fade-down-right">
                         <div class="card d-block mx-auto">
                             <img src="./img/Literaria_Rayuela_Cortazar.png" class="card-img-top"
                                 alt="Rayuela Julio Cortazar">
