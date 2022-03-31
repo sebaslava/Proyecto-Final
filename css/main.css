@@ -26,7 +26,7 @@
     margin-top: 20px; }
 
 .navbar {
-  background: linear-gradient(180deg, #3a190a 0%, #e27c3c 14%, rgba(255, 140, 33, 0.851) 60%, #c26933 81%);
+  background: linear-gradient(180deg, rgba(58, 25, 10, 0.769279) 0%, #c86222 67%, rgba(65, 27, 14, 0.85074) 100%);
   position: sticky;
   top: 0;
   z-index: 1; }
