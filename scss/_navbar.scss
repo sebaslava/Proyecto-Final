@@ -1,4 +1,7 @@
 .navbar{background: linear-gradient(180deg, rgba(58,25,10,1) 0%, rgba(226,124,60,1) 43%, rgba(65,27,14,1) 79%);
+    position: sticky;
+    top: 0;
+    z-index: 1;
        .fa-bars{color: white;}
         .logo-img{height: 50px;}
        .navbar-nav{
