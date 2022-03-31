@@ -26,7 +26,7 @@
     margin-top: 20px; }
 
 .navbar {
-  background: linear-gradient(180deg, rgba(58, 25, 10, 0.769279) 0%, #c86222 67%, rgba(65, 27, 14, 0.85074) 100%);
+  background: radial-gradient(circle, #3a190a 0%, #c86222 40%, #411b0e 80%);
   position: sticky;
   top: 0;
   z-index: 1; }
