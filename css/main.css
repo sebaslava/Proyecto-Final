@@ -26,10 +26,14 @@
     margin-top: 20px; }
 
 .navbar {
-  background: radial-gradient(circle, #3a190a 0%, #c86222 40%, #411b0e 80%);
+  background: linear-gradient(270deg, rgba(250, 92, 0, 0), #cc5200, #85420c);
+  background-size: 600% 600%;
+  -webkit-animation: Navnimation 20s ease infinite;
+  -moz-animation: Navnimation 20s ease infinite;
+  animation: Navnimation 20s ease infinite;
   position: sticky;
   top: 0;
-  z-index: 1; }
+  z-index: 3; }
   .navbar .fa-bars {
     color: white; }
   .navbar .logo-img {
@@ -40,6 +44,34 @@
   .navbar .nav-link {
     color: white;
     margin-right: 40px; }
+  .navbar .nav-link:hover {
+    border-radius: 10px;
+    height: 90%;
+    background: linear-gradient(270deg, #c24e00, rgba(250, 92, 0, 0), #85420c); }
+
+@-webkit-keyframes Navnimation {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@-moz-keyframes Navnimation {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@keyframes Navnimation {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
 
 .footer {
   background-color: black;
@@ -49,12 +81,12 @@
   text-align: center; }
 
 body {
-  display: flex;
-  flex-direction: column;
-  font-family: 'comfortaa', sans-serif;
   background-image: url(../img/cavern.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  font-family: 'comfortaa', sans-serif;
   min-height: 100vh; }
 
 main .card {

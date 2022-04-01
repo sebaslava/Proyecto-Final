@@ -4,12 +4,12 @@
 @import "footer";
 
 body {
-    display: flex;
-    flex-direction: column;
-    font-family: 'comfortaa', sans-serif;
     background-image: url(../img/cavern.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    font-family: 'comfortaa', sans-serif;
     min-height: $altobody;
 }
 
