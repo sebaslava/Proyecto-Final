@@ -198,4 +198,4 @@ body {
       grid-template-columns: 120px 120px 100px;
       grid-template-rows: 40px 130px 80px 120px 130px; }
       .container .gridResponsive .libro8 {
-        display: none; } }
+        display: block; } }
