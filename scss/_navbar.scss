@@ -1,5 +1,5 @@
 .navbar{
-    background: linear-gradient(270deg, rgba(250, 92, 0, 0), rgb(204, 82, 0), #85420c);
+    background: linear-gradient(270deg, rgba(255, 141, 75, 0.753), rgb(204, 82, 0), #85420c);
     background-size: 600% 600%;
     -webkit-animation: Navnimation 20s ease infinite;
     -moz-animation: Navnimation 20s ease infinite;
@@ -7,6 +7,11 @@
     position: sticky;
     top: 0;
     z-index: 3;
+    .titlenav{
+        font-family:'Amatic SC', cursive;
+        font-size: 30px;
+        color: white;
+    }
        .fa-bars{color: white;}
         .logo-img{height: 50px;}
        .navbar-nav{
@@ -18,7 +23,7 @@
             .nav-link:hover{
                 border-radius: 10px;
                 height: 90%;
-                background: linear-gradient(270deg, rgb(194, 78, 0), rgba(250, 92, 0, 0),  #85420c);
+                background: linear-gradient(270deg, rgb(194, 78, 0), rgb(252, 154, 98),  #000000);
             }
 }
 

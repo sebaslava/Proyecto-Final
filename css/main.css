@@ -3,7 +3,7 @@
   border-radius: 20px; }
 
 .primary {
-  color: #b36a3a;
+  color: #e6d2c4;
   font-size: 20px; }
 
 .secondary {
@@ -11,7 +11,7 @@
   font-size: 20px; }
 
 .succes {
-  color: #197e2e;
+  color: #05ff37;
   font-size: 20px; }
 
 .header {
@@ -26,7 +26,7 @@
     margin-top: 20px; }
 
 .navbar {
-  background: linear-gradient(270deg, rgba(250, 92, 0, 0), #cc5200, #85420c);
+  background: linear-gradient(270deg, rgba(255, 141, 75, 0.753), #cc5200, #85420c);
   background-size: 600% 600%;
   -webkit-animation: Navnimation 20s ease infinite;
   -moz-animation: Navnimation 20s ease infinite;
@@ -34,6 +34,10 @@
   position: sticky;
   top: 0;
   z-index: 3; }
+  .navbar .titlenav {
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    color: white; }
   .navbar .fa-bars {
     color: white; }
   .navbar .logo-img {
@@ -47,7 +51,7 @@
   .navbar .nav-link:hover {
     border-radius: 10px;
     height: 90%;
-    background: linear-gradient(270deg, #c24e00, rgba(250, 92, 0, 0), #85420c); }
+    background: linear-gradient(270deg, #c24e00, #fc9a62, #000000); }
 
 @-webkit-keyframes Navnimation {
   0% {
@@ -74,7 +78,7 @@
     background-position: 0% 50%; } }
 
 .footer {
-  background-color: black;
+  background: linear-gradient(90deg, #3a190a 0%, #c46021 38%, #c05e20 59%, #c86222 71%, #411b0e 81%);
   color: white;
   margin-top: auto;
   width: 100%;
@@ -89,10 +93,10 @@ body {
   font-family: 'comfortaa', sans-serif;
   min-height: 100vh; }
 
-main .card {
+.container .card {
   width: 16rem; }
 
-main .imgtitle {
+.container .imgtitle {
   font-family: 'Amatic SC', cursive;
   font-size: 35px;
   text-align: start;
@@ -100,12 +104,96 @@ main .imgtitle {
   margin-top: 20px;
   color: white; }
 
-main .titlequien {
+.container .titlequien {
   font-family: 'Amatic SC', cursive;
   color: white;
   font-size: 30px; }
 
-.card-title {
+.container .card-title {
   font-family: 'Shadows Into Light', cursive;
   font-weight: 600;
   font-size: 20px; }
+
+.container .gridResponsive {
+  height: 100%;
+  width: 100%;
+  padding-bottom: 20px;
+  justify-content: center;
+  display: grid;
+  gap: 10px;
+  grid-template-areas: "title title title title title" "libro1 libro2 libro3 libro9 libro5" "libro6 libro7 libro8 libro4 libro10 ";
+  grid-template-columns: 200px 200px 150px 200px 150px;
+  grid-template-rows: 50px 250px 250px; }
+  .container .gridResponsive .title {
+    grid-area: title;
+    text-decoration: underline;
+    color: white;
+    font-family: cursive;
+    display: grid;
+    justify-content: flex-start; }
+  .container .gridResponsive .libro1 {
+    grid-area: libro1; }
+    .container .gridResponsive .libro1 .imglibro1 {
+      height: 100%;
+      width: 100%; }
+  .container .gridResponsive .libro2 {
+    grid-area: libro2; }
+    .container .gridResponsive .libro2 .imglibro2 {
+      height: 100%;
+      width: 100%; }
+  .container .gridResponsive .libro3 {
+    grid-area: libro3; }
+    .container .gridResponsive .libro3 .imglibro3 {
+      height: 100%;
+      width: 100%; }
+  .container .gridResponsive .libro4 {
+    grid-area: libro4; }
+    .container .gridResponsive .libro4 .imglibro4 {
+      height: 100%;
+      width: 100%; }
+  .container .gridResponsive .libro5 {
+    grid-area: libro5; }
+    .container .gridResponsive .libro5 .imglibro5 {
+      height: 100%;
+      width: 100%; }
+  .container .gridResponsive .libro6 {
+    grid-area: libro6; }
+    .container .gridResponsive .libro6 .imglibro6 {
+      height: 100%;
+      width: 100%; }
+  .container .gridResponsive .libro7 {
+    grid-area: libro7; }
+    .container .gridResponsive .libro7 .imglibro7 {
+      height: 100%;
+      width: 100%; }
+  .container .gridResponsive .libro8 {
+    grid-area: libro8; }
+    .container .gridResponsive .libro8 .imglibro8 {
+      height: 100%;
+      width: 100%; }
+  .container .gridResponsive .libro9 {
+    grid-area: libro9; }
+    .container .gridResponsive .libro9 .imglibro9 {
+      height: 100%;
+      width: 100%; }
+  .container .gridResponsive .libro10 {
+    grid-area: libro10; }
+    .container .gridResponsive .libro10 .imglibro10 {
+      height: 100%;
+      width: 100%; }
+  @media screen and (max-width: 992px) {
+    .container .gridResponsive {
+      grid-template-areas: "title title title title"  "libro4 libro5 libro6 libro7"  "libro1 libro2 libro3 libro7"  "libro1 libro9 libro10 libro8";
+      grid-template-columns: 200px 200px 150px 200px;
+      grid-template-rows: 50px 200px 200px 200px; } }
+  @media screen and (max-width: 768px) {
+    .container .gridResponsive {
+      grid-template-areas: "title title title"  "libro4 libro5 libro6"  "libro7 libro8 libro9"  "libro1 libro2 libro3" "libro1 libro2 libro10";
+      grid-template-columns: 200px 200px 180px;
+      grid-template-rows: 50px 200px 200px 150px 150px;
+      margin-left: 10px; } }
+  @media screen and (max-width: 596px) {
+    .container .gridResponsive {
+      grid-template-areas: "title title title"  "libro4 libro5 libro6"  "libro1 libro2 libro3" "libro1 libro2 libro3" "libro7 libro8 libro10";
+      grid-template-columns: 120px 120px 100px;
+      grid-template-rows: 40px 130px 130px 50px 130px; } }
