@@ -133,6 +133,9 @@ body {
     justify-content: flex-start; }
     .container .gridResponsive .title .title-grid {
       font-size: 50px; }
+  .container .gridResponsive .boton {
+    display: flex;
+    justify-content: center; }
   .container .gridResponsive .libro1 {
     grid-area: libro1; }
     .container .gridResponsive .libro1 .imglibro1 {
@@ -205,9 +208,9 @@ body {
       width: 100%; }
   @media screen and (max-width: 992px) {
     .container .gridResponsive {
-      grid-template-areas: "title title title title"  "libro12 libro13 libro14 libro10"  "libro1 libro2 libro3 libro10"  "libro1 libro2 libro3 libro10" "libro7 libro9 libro11 libro8" "libro4 libro5 libro6 libro8";
+      grid-template-areas: "title title title title"  "libro12 libro13 libro14 libro10"  "libro1 libro2 libro3 libro10"  "libro1 libro2 libro3 libro8" "libro7 libro9 libro11 libro8" "libro4 libro5 libro6 libro8";
       grid-template-columns: 190px 190px 140px 190px;
-      grid-template-rows: 50px 200px 200px 100px 200px 200px; } }
+      grid-template-rows: 50px 200px 150px 100px 200px 200px; } }
   @media screen and (max-width: 768px) {
     .container .gridResponsive {
       grid-template-areas: "title title title"  "libro4 libro5 libro6"  "libro7 libro8 libro9"  "libro1 libro2 libro3" "libro1 libro2 libro3" "libro10 libro11 libro12" "libro10 libro13 libro14";
