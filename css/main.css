@@ -205,9 +205,9 @@ body {
       width: 100%; }
   @media screen and (max-width: 992px) {
     .container .gridResponsive {
-      grid-template-areas: "title title title title"  "libro12 libro13 libro14 libro10"  "libro1 libro2 libro3 libro10"  "libro7 libro9 libro11 libro8" "libro4 libro5 libro6 libro8";
+      grid-template-areas: "title title title title"  "libro12 libro13 libro14 libro10"  "libro1 libro2 libro3 libro10"  "libro1 libro2 libro3 libro10" "libro7 libro9 libro11 libro8" "libro4 libro5 libro6 libro8";
       grid-template-columns: 190px 190px 140px 190px;
-      grid-template-rows: 50px 200px 200px 200px 200px; } }
+      grid-template-rows: 50px 200px 200px 100px 200px 200px; } }
   @media screen and (max-width: 768px) {
     .container .gridResponsive {
       grid-template-areas: "title title title"  "libro4 libro5 libro6"  "libro7 libro8 libro9"  "libro1 libro2 libro3" "libro1 libro2 libro3" "libro10 libro11 libro12" "libro10 libro13 libro14";
@@ -219,7 +219,7 @@ body {
         justify-content: center; }
         .container .gridResponsive .title .title-grid {
           font-size: 30px;
-          padding-top: 10px; } }
+          padding-top: 5px; } }
   @media screen and (max-width: 596px) {
     .container .gridResponsive {
       grid-template-areas: "title title title"  "libro10 libro1 libro3" "libro10 libro2 libro3" "libro5 libro9 libro11" "libro7 libro14 libro6" "libro12 libro4 libro8" "libro12 libro4 libro13";
