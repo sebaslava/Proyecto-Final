@@ -149,11 +149,11 @@ font-size: 20px;}
     }
     @media screen and (max-width: 768px) {
         grid-template-areas:"title title title" 
-        "libro4 libro5 libro6" 
-        "libro7 libro8 libro9" 
+        "libro9 libro5 libro11" 
+        "libro7 libro8 libro6" 
         "libro1 libro2 libro3"
         "libro1 libro2 libro3"
-        "libro10 libro11 libro12"
+        "libro10 libro4 libro12"
         "libro10 libro13 libro14";
         grid-template-columns: 210px 210px 190px;
         grid-template-rows: 50px 220px 220px 170px 50px 170px 170px;
@@ -170,7 +170,7 @@ font-size: 20px;}
                              "libro1 libro2 libro3"
                              "libro1 libro2 libro3"
                              "libro10 libro10 libro10"
-                             "libro5 libro9 libro11"
+                             "libro9 libro5 libro11"
                              "libro7 libro14 libro6"
                              "libro12 libro4 libro8"
                              "libro12 libro4 libro13";     
