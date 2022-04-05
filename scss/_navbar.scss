@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
     background: linear-gradient(270deg, rgba(255, 141, 75, 0.753), rgb(204, 82, 0), #85420c);
     background-size: 600% 600%;
     -webkit-animation: Navnimation 20s ease infinite;
@@ -7,38 +7,76 @@
     position: sticky;
     top: 0;
     z-index: 3;
-    .titlenav{
-        font-family:'Amatic SC', cursive;
+
+    .titlenav {
+        font-family: 'Amatic SC', cursive;
         font-size: 30px;
         color: white;
     }
-       .fa-bars{color: white;}
-        .logo-img{height: 50px;}
-       .navbar-nav{
+
+    .fa-bars {
+        color: white;
+    }
+
+    .logo-img {
+        height: 50px;
+    }
+
+    .navbar-nav {
         font-size: 30px;
-        font-family: 'Amatic SC', cursive;}
-        .nav-link{
-            color: white;
-            margin-right: 40px;}
-            .nav-link:hover{
-                border-radius: 10px;
-                height: 90%;
-                background: linear-gradient(270deg, rgb(194, 78, 0), rgb(252, 154, 98),  #000000);
-            }
+        font-family: 'Amatic SC', cursive;
+    }
+
+    .nav-link {
+        color: white;
+        margin-right: 40px;
+    }
+
+    .nav-link:hover {
+        border-radius: 10px;
+        height: 90%;
+        background: linear-gradient(270deg, rgb(194, 78, 0), rgb(252, 154, 98), #000000);
+    }
 }
 
-            @-webkit-keyframes Navnimation {
-                0%{background-position:0% 50%}
-                50%{background-position:100% 50%}
-                100%{background-position:0% 50%}
-            }
-            @-moz-keyframes Navnimation {
-                0%{background-position:0% 50%}
-                50%{background-position:100% 50%}
-                100%{background-position:0% 50%}
-            }
-            @keyframes Navnimation {
-                0%{background-position:0% 50%}
-                50%{background-position:100% 50%}
-                100%{background-position:0% 50%}
-            }
+@-webkit-keyframes Navnimation {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes Navnimation {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes Navnimation {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}

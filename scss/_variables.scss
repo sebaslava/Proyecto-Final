@@ -1,23 +1,30 @@
 $altobody:100vh;
 $colortitulos: rgb(255, 255, 255);
 $fondonav: rgb(243, 151, 98);
-$paleta: (
-    primary: rgb(230, 210, 196),
+$paleta: (primary: rgb(230, 210, 196),
     secondary: rgb(68, 38, 240),
     succes: rgb(5, 255, 55),
-    
+
 );
 
-.iconStyle{border: 1px solid;
-    border-radius: 20px;}
+.iconStyle {
+    border: 1px solid;
+    border-radius: 20px;
+}
 
 
 @mixin redes($color) {
-    color:$color;
-    font-size: 20px;   
+    color: $color;
+    font-size: 20px;
 }
 
-@each $nombre, $color in $paleta {
-    .#{$nombre}{@include redes($color)
-    }.#{$nombre}{@extend .iconStyle}
+@each $nombre,
+$color in $paleta {
+    .#{$nombre} {
+        @include redes($color)
     }
+
+    .#{$nombre} {
+        @extend .iconStyle
+    }
+}
